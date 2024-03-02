@@ -1,0 +1,98 @@
+* {
+    text-decoration: none;
+}
+
+.form-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.125rem;
+    background: #1b1a1a;
+    color: rgb(243, 239, 247);
+    padding: 5rem 5rem;
+    border-radius: 0.513rem;
+    width: 50%;
+    box-shadow: 3px 0.25rem 1.25rem rgba(27, 27, 27, 0.2, );
+
+
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 2.75rem;
+    margin-top: -1.875rem;
+    color: #3dc7ea;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.form-container a {
+    color: #e2dc20;
+}
+
+.form-container p,
+a {
+    display: block;
+    text-align: center;
+}
+
+.login-btn {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    background: #3dc7ea;
+    padding: 0.938rem;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1.563rem;
+    color: #fff;
+    border-radius: 0.513rem;
+    border-color: #3dc7ea;
+
+
+}
+
+.login-btn:focus {
+    outline: 0;
+}
+
+.login-btn:active {
+    transform: scale(0.99);
+
+}
+
+.form-control {
+    position: relative;
+    margin: 1.25rem 0 0.5rem;
+    padding: 5px;
+}
+
+.form-control input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    display: block;
+    width: 100%;
+    padding: 1.125rem;
+    color: #fff;
+}
+
+.form-control label {
+    position: absolute;
+    top: 0.938rem;
+    left: 10;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 1.125rem;
+    min-width: .313rem;
+    transition: 2s cubic-bezier(0.53, 0.246, 0.265, 1.66);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    color: #3dc7ea;
+    transform: translateY(-2.200rem);
+}
